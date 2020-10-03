@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="container">
+        <div class="center jumbotron">
+
+<div class="col-lg-12"  style="background-color:#6dd5ed">
+  <h1 class="display-8"> &nbsp; &nbsp;  * * * * * * * * *  DEJANOS TU SALUDO * * * * * * * * * </h1>
+  <img src="https://i.ibb.co/ng0cZsM/john.jpg" alt="john" height="350px" widht="60px" >
+  <hr class="my-10">
+
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0"></script>
+    <hr class="my-10">
+   <!--cOLOCAR MENSAJE ENTRE LAS P-->
+  <p>Importante (Estar en logueado en Facebook)</p>
+  
+  <!--caja de mensajes-->
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0"></script>
+
+<div class="fb-comments" data-href="https://git.heroku.com/john-portal-saludo.git" data-width="" data-numposts="20"></div>
+ <!--FIN caja de mensajes-->
+</div>
+
+{% endblock%}
